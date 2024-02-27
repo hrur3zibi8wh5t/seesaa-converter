@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+    <meta charset="UTF-8" />
+    <title>seesaa wiki converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css" />
 </head>
 
 <body>
-<main>
-  <h1>GitHub Pages のサンプルです</h1>
-</main>
+    <h1>seesaa wiki converter</h1>
+    <table>
+        <tr>
+            <td><textarea id="source" name="source" rows="5" cols="33">atwiki側のソースを入力</textarea></td>
+            <td><textarea id="result" name="result" rows="5" cols="33">seesaa wiki向けのソースが表示されます</textarea></td>
+        </tr>
+        <tr>
+            <td><button id="convert">convert</button></td>
+            <td><button id="copy">copy</button></td>
+        </tr>
+    </table>
+    <script src="./converter.js"></script>
 </body>
-
 </html>
